@@ -23,7 +23,7 @@ jobs:
       - name: Compile Java file
         run: |
           mkdir -p build
-          javac -d build src/Main.java
+          javac -d build Main.java
 
       - name: Upload compiled class
         uses: actions/upload-artifact@v4
